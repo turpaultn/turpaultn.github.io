@@ -54,12 +54,20 @@ github: turpaultn
 email: turpaultn@gmail.com
 
 authors:
-    johndoe:
+    nturpault:
         name: Nicolas Turpault
         bio: PhD student in ambient sound analysis at Inria Nancy. Waterfall hunter.
         external-image: false
         picture: assets/images/waterfall.jpg
         twitter: Nicoturpo
+    rserizel:
+        name: Romain Serizel
+        bio: Associate Professor at Université de Lorraine.
+        external-image: false
+        picture: assets/images/waterfall.jpg
+        twitter: Nicoturpo
+
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal

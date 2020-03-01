@@ -29,9 +29,9 @@ permalink: /:title/
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: turpaultn # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+#disqus:
+#  shortname: turpaultn # enter this from your disqus account
+#  categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -57,15 +57,15 @@ authors:
     nturpault:
         name: Nicolas Turpault
         bio: PhD student in ambient sound analysis at Inria Nancy. Waterfall hunter.
-        external-image: false
+        external-image: true
         picture: assets/images/waterfall.jpg
         twitter: Nicoturpo
     rserizel:
         name: Romain Serizel
         bio: Associate Professor at Université de Lorraine.
         external-image: false
-        picture: assets/images/waterfall.jpg
-        twitter: Nicoturpo
+        #picture: assets/images/waterfall.jpg
+        twitter: rserizel
 
 
 

@@ -15,11 +15,6 @@ table
     width: 100%;
 }
 
-h4, th
-{
-    text-align: center;
-}
-
 body {
   font-family: Arial;
   padding: 5%;

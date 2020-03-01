@@ -16,7 +16,6 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-#url: https://koppl.in/indigo
 url: http://turpaultn.github.io
 
 permalink: /:title/
@@ -56,15 +55,15 @@ email: turpaultn@gmail.com
 authors:
     nturpault:
         name: Nicolas Turpault
-        bio: PhD student in ambient sound analysis at Inria Nancy. Waterfall hunter.
-        external-image: true
+        bio: PhD student in ambient sound analysis at Inria Nancy.
+        external-image: false
         picture: assets/images/waterfall.jpg
         twitter: Nicoturpo
     rserizel:
         name: Romain Serizel
         bio: Associate Professor at Université de Lorraine.
         external-image: false
-        #picture: assets/images/waterfall.jpg
+        picture: assets/images/default_profile.svg
         twitter: rserizel
 
 

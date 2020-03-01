@@ -41,9 +41,16 @@ layout: page
 {% endif %}
 
 {% if site.show-author %}
-    {% include author.html %}
+    {% if page.author %} 
+        {% assign author = page.author %}
+        {% include author.html %}
+    {% else %}
+        {% for author in page.authors %}
+            {% include author.html %}
+        {% endfor %}
+    {% endif %}
 {% endif %}
 
-{% if page.comments %}
-     {% include comments.html %}
-{% endif %}
+{% if page.comments -%}
+    {% include utterances.html %}
+{% endif -%}

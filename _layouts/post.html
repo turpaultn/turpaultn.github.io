@@ -40,6 +40,22 @@ layout: page
     {% include related.html %}
 {% endif %}
 
+{% if site.share-twitter %}
+    {% if site.authors %}
+        {% assign twitterAuthors =  "" %}
+        {% for author in page.authors %}
+            {% if twitterAuthors == "" %}
+                {% assign twitterAuthors =  "@" | append: site.authors[author].twitter %}
+            {% else %}
+                {% assign twitterAuthors = twitterAuthors | append: ", @" | append: site.authors[author].twitter %}
+            {% endif %}
+        {% endfor %} 
+    {% else %}
+        {% assign twitterAuthors = author.twitter %}
+    {% endif %}
+    {% include share-twitter.html %}
+{% endif %}
+
 {% if site.show-author %}
     {% if page.author %} 
         {% assign author = page.author %}
